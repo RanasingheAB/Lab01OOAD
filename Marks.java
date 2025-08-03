@@ -68,7 +68,7 @@ public class Marks{
 						}
 					}
 				}
-				System.out.println("The total marks fro the three subjects for the student with ID " +student_id+" is " + total_marks );
+				System.out.println("The total marks for the three subjects for the student with ID " +student_id+" is " + total_marks );
 			}else if(choice == 4){
 				double average_marks = 0;
 				System.out.println("Enter the Stubent ID of the student to find Average marks: ");
@@ -81,7 +81,7 @@ public class Marks{
 					}
 				}
 				average_marks = average_marks/3;
-				System.out.printf("The total marks for the three subjects for the student with ID %d is: %.2f\n", student_id, average_marks);
+				System.out.printf("The Average marks for the three subjects for the student with ID %d is: %.2f\n", student_id, average_marks);
 
 			}else if (choice == 5){
 				double average_mark_sub = 0;
